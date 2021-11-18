@@ -1,5 +1,6 @@
-# <img align="left" alt="Instagram" width="30px" src="public/images/instgram.png" draggable="false" /> Instagram Clone ([Click to try 🚀](http://instagram-clone00.herokuapp.com/))
+# <img align="left" alt="Instagram" width="30px" src="public/images/instgram.png" draggable="false" /> Instagram Clone 
 
+<!-- ([Click to try 🚀](http://instagram-clone00.herokuapp.com/)) -->
 Bulit Laravel **_Instagram Clone_** using Livewire for Requests without reloading like Follow, Post Image, Edit Profile, Search Users, Comment on Post, Save Post ane more.
 
 
