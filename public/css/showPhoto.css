@@ -1,0 +1,359 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font:inherit;
+    transition:0.3s all ease-in-out;
+    }
+    button,input,textarea{
+
+        font-size: 12px !important;
+        text-align: center;
+        outline: none;    }
+
+p{
+    margin-bottom: 0 !important;
+}
+.nav-fix {
+    z-index: 10;
+}
+                                        /*start navbar */
+.con{
+
+    display: flex;
+    flex-direction: row;
+    /* width:80% ; */
+    /* background-color: red; */
+    /* height: 100px; */
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+    background-color: white;
+}
+
+
+.heading {
+    margin: 12px auto 6px;
+    background-image: url("https://www.instagram.com/static/bundles/es6/sprite_core_b20f2a3cd7e4.png/b20f2a3cd7e4.png");
+    background-position: -98px 0;
+    height: 51px;
+    width: 177px;
+    overflow: hidden;
+  }
+.box1 >ul li{
+    list-style: none;
+    display: inline;
+
+}
+
+#NewPost{
+    border: 2px solid black; border-radius: 3px;padding: 1px;
+}
+.box1 ul li a img{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+.box1 ul li img:hover{
+    transform:rotate(360deg);
+
+transition: 0.3S;
+
+}
+.profile{
+    border-radius: 50%;
+}
+
+.box1 ul li a  .profile:hover{
+    transform:rotateY(360deg);
+    transition: 0.3S;
+}
+.line{
+    width: 100%;
+    margin-top: 5px;
+    height: 2px;
+
+}
+input,
+button
+{
+    border-radius: 2px;
+    font-size: 12px !important;
+    border: 1px solid #dbdbdb;
+    background-color: #fafafa;
+    padding: 7px 10px;
+    /* margin: 5px 0; */
+    /* width: 130%; */
+    text-align: center;
+    outline: none;
+}
+.nav-link{
+    display: inline !important;
+    margin-left:-15px ;
+}
+.dropdown-toggle::after {
+display: none !important;
+}
+
+@media (max-width: 1000px)  {
+    .container{
+        flex-direction: row !important;
+    }
+}
+@media (max-width: 768px)
+{
+#search{
+    display: none;
+}
+}
+                                        /* endof navbar */
+.container1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+#photo-show
+{
+    height: 450px;
+    /* max-width:20rem ; */
+}
+/* .card{
+    width: 800px ;
+    height: 50vh;
+} */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card-body{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* height: 50vh; */
+    /* height: 100%;
+    justify-content: space-between;
+
+    padding: 0.5rem 0.5rem!important; */
+}
+
+.username{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-decoration: none;
+    /* margin-top: 10px; */
+}
+.card-title{
+    text-decoration: none;
+    color:rgb(38, 38, 38);
+    font-size: 0.9rem !important;
+    /* opacity: 1 !important; */
+}
+.card-title-comment {
+    text-decoration: none;
+    color:rgb(38, 38, 38);
+    font-size: 0.9rem !important;
+
+}
+.status-place {
+    border-bottom: 1px solid rgb(238, 233, 233);
+}
+
+.card-title-caption{
+    text-decoration: none;
+    color:rgb(15, 15, 15);
+    font-size: 1rem !important;
+    /* opacity: 1 !important; */
+}
+#username-id span{
+    font-size: 1.1rem !important;
+    padding-top:10px ;
+    font-weight: bold;
+
+}
+.username-comment{
+    opacity: 0.7     !important;
+    font: 0.84rem sans-serif;
+}
+#username-caption{
+    opacity: 1     !important;
+    font: 0.84rem sans-serif;
+}
+.par-box2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.post-edit{
+    font-size: 2rem;
+}
+.box2 ul li{
+    list-style: none;
+
+    }
+  .username-post {
+      font-size: 22px !important;
+  }
+
+    #navbarDropdown{
+        font-size: 1.5rem !important;
+    color:rgb(38, 38, 38);
+
+    }
+    .par-box1{
+        display: flex;
+        flex-direction: column;
+        height: 390px;
+        width: 100%;
+    }
+
+
+    .comment-wrapper{
+
+
+        width: 120%;
+        height: 45px;
+
+    border: none !important;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .comment-wrapper .icon{
+    /* padding-right: 5px; */
+    height: 31px;
+    width: 20px;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+
+
+.comment-box{
+    width: 75%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background-color: white;
+    text-align: start;
+
+
+}
+
+    .comment-btn{
+        width: 70px;
+        height: 100%;
+        background: none;
+        border: none;
+        outline: none;
+        text-transform: capitalize;
+        font-size: 16px;
+        color: rgb(0, 162, 255);
+        opacity: 0.5;
+    }
+    .comment-btn:hover{
+        color: rgb(0, 162, 255);
+        opacity: 1;
+    }
+    @media (max-width: 768px)
+    {
+
+
+    .card{
+        width: 85%;
+    }
+    #photo-show
+{
+    /* max-height: 50vh; */
+    width:100% ;
+    /* margin: auto; */
+    margin-bottom: 20px;
+}
+    }
+
+.users-search {
+    top: 115%;
+    width: 180%;
+    max-height: 400px;
+    background-color: white;
+    left: -30%;
+    border-radius: 10px;
+    overflow: auto;
+
+}
+.users-search .image-search {
+    width: 55px;
+    height:55px;
+    border-radius: 50%;
+    /* margin-left: 10px; */
+}
+.search-username {
+    color:  black;
+    font-weight: 700;
+    font-size: 14px;
+}
+.search-name {
+    color: rgb(128, 128, 128);
+    font-size: 15px;
+    font-weight: 400;
+}
+.users-search a {
+    text-decoration: none;
+}
+.users-search .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.search-wrapper {
+    margin: 0;
+    padding: 0;
+}
+.search-wrapper:hover {
+   background-color: #FAFAFA;
+}
+.opacity-75 {
+    opacity: 0.75;
+}
+.reaction a{
+    color:rgb(38, 38, 38);
+    margin: 0 5px;
+    font-size:20px;
+    font-weight: 500;
+
+}
+.card-text {
+    font-weight: 600;
+   margin: 5px 8px;
+}
+.card-text-text {
+    font-weight: 400;
+   margin: 5px 8px;
+}
+.card-title a:hover{
+ color:rgb(142, 142, 142);
+
+}
+.like-color {
+    color: #ED4956;
+}
+.hash-post {
+    color: #277bca !important;
+}
+.hey .follow-btn {
+    font-size: 15px !important;
+}
+.link-list {
+    color: black;
+    text-decoration: none;
+}
+.link-list:hover{
+    color: black;
+}

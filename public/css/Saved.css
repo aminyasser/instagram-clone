@@ -1,0 +1,339 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font:inherit;
+    transition:0.3s all ease-in-out;
+    }
+    button,input,a,textarea{
+
+        font-size: 12px !important;
+        /* border: 1px solid #dbdbdb; */
+        /* background-color: #fafafa; */
+        /* padding: 7px 10px; */
+        /* margin: 5px 0; */
+        /* width: 130%; */
+        text-align: center;
+        outline: none;    }
+
+p{
+    margin-bottom: 0 !important;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    /* width:80% ; */
+    /* background-color: red; */
+    /* height: 100px; */
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1)
+}
+
+ 
+.heading {
+    margin: 22px auto 12px;
+    background-image: url("https://www.instagram.com/static/bundles/es6/sprite_core_b20f2a3cd7e4.png/b20f2a3cd7e4.png");
+    background-position: -98px 0;
+    height: 51px;
+    width: 177px;
+    overflow: hidden;
+  }
+.box1 >ul li{
+    list-style: none;
+    display: inline;
+
+}
+
+
+.box1 ul li a img{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px; 
+}
+.box1 ul li img:hover{
+    transform:rotate(360deg);
+
+transition: 0.3S;
+
+}
+.profile{
+    border-radius: 50%;
+}
+
+.box1 ul li a  .profile:hover{
+    transform:rotateY(360deg);
+    transition: 0.3S;
+}
+.line{
+    width: 100%;
+    margin-top: 5px;
+    height: 2px;
+
+}
+input,
+button
+{
+    border-radius: 2px;
+    font-size: 12px !important;
+    border: 1px solid #dbdbdb;
+    background-color: #fafafa;
+    padding: 7px 10px;
+    /* margin: 5px 0; */
+    /* width: 130%; */
+    text-align: center;
+    outline: none;
+}
+.nav-link{
+    display: inline !important;
+    margin-left:-15px ;
+}
+.dropdown-toggle::after {
+display: none !important;
+}
+
+@media (max-width: 1000px)  {
+    .container{
+        flex-direction: row !important;
+    }
+}
+@media (max-width: 768px)  
+{
+#search{
+    display: none;
+}
+}
+                                            /*End of NavBar  */
+
+                                            /* Start of profile part1 */
+.contanier-profile{
+    /* background: black; */
+    width: 60%;
+     /* height: 70vh;  */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+    
+}
+.line{
+    width: 70%;
+    margin: auto;
+}
+.big-box1 */
+{
+
+    display: flex;
+    justify-content: center;
+    /* width: 80%; */
+    height: 40vh;
+    /* width: 400px; */
+    margin-right:20px;
+    /* border: black; */
+}
+.big-box2
+{
+
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    /* height: 40vh; */
+    margin: 10px;
+    /* border: black; */
+    flex-direction: column;
+}
+#profile-img{
+    /* position: relative;
+    left: 50px; */
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    
+
+}
+.contanier-username{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.edit-profile form button{
+    position: absolute;
+    background-color: transparent;
+    border: 1px solid #dbdbdb;
+    border: 1px solid rgba(var(--ca6,219,219,219),1);
+    font-weight: bold;
+    color: rgba(38,38,38,1);
+    top: 10px;
+    border-radius:3px;
+    /* margin-right:10px ; */
+    padding: 10px;
+
+
+}
+.setting >ul li{
+    list-style: none;
+    display: inline;
+
+}
+
+.setting ul li a img{
+    /* position: absolute; */
+    width: 25px;
+    height: 20px;
+    /* margin-top: 50px; */
+
+    margin-top: 20px ; 
+}
+.setting ul li img:hover{
+    transform:rotate(360deg);
+
+transition: 0.3S;
+
+}
+#username {
+
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-bottom: 0;
+    /* margin-left: 30px; */
+}
+
+    @media (max-width: 1330px)  {
+        .contanier-username{
+
+            margin-bottom:30px;
+        }
+        .edit-profile form button{
+            top: 50px;
+            width: 80%;
+            right: 50px;
+        }
+        #profile-img{
+            /* position: relative;
+            left: 50px; */
+            width: 100px;
+            height:100px;
+            border-radius: 50%;
+            margin-right: 20px;
+            
+        
+        }
+        #username {
+
+            font-size: 1.25rem;
+            /* margin-risght:20px ; */
+
+        }
+        .follow
+        {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+        }
+
+        .bio{
+            max-width: 100%;
+        }
+
+    }
+/* end of profile part1 */
+/* start of profile part2 */
+.follow
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: 10px auto;
+}
+.follow div a{
+    text-decoration: none;
+    color: #262626;
+}
+.only-name
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 75%;
+    margin: 10px auto; 
+}
+
+.bio{
+    /* max-width: 60%; */
+    /* margin-bottom: 10px; */
+    color: rgba(38,38,38,0.5);
+}
+
+.contanier-posts{
+        /* background: black; */
+        width: 70%;
+        /* height: 70vh;  */
+       display: flex;
+       justify-content: space-between;
+       flex-direction: row;
+       margin: 10px auto;
+       flex-wrap: wrap;
+       align-items: center;
+       
+}
+.first-box{
+    /* background-color: black; */
+width:31%;
+/* height: 293px; */
+margin: 10px auto;
+/* overflow: hidden; */
+
+}
+
+.first-box img{
+    max-height: 100%;
+    max-width: 100%;
+    align-self: center;
+
+}
+.first-box a:hover{
+position: relative;
+bottom: 10px;
+
+transition: 1s;
+}
+@media (max-width: 1000px)  {
+
+
+    .contanier-posts{
+        width: 100%;
+
+       
+}
+
+.first-box{
+    /* background-color: black; */
+width:32%;
+/* height: 293px; */
+/* margin: 10px auto; */
+/* overflow: hidden; */
+
+}
+}
+@media (max-width: 768px)  {
+
+    .contanier-posts{
+        width: 100%;}
+
+        .first-box{
+            /* background-color: black; */
+        width:32%;
+        /* height: 293px; */
+        /* margin: 10px auto; */
+        /* overflow: hidden; */
+        
+        }
+       
+}

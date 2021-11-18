@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* background-color: #fafafa; */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; 
+  }
+  input,
+  button
+  {
+      border-radius: 3px;
+      font-size: 12px !important;
+      outline: none;
+      
+  }
+  body{
+    background-color: #fafafa;
+  }
+  
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+  
+  /* header style */
+  .page .header{
+    text-align: center;
+  }
+  
+  .page .header .logo, 
+  .page .header p, 
+  .page .header button{
+    margin-bottom: 15px;
+  }
+  
+  .page .header > p{
+    font-weight: bold;
+    
+    font-size: 18px;
+  }
+  
+  .page .header > button{
+    width: inherit;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: none;
+    background-color: #0095f6;
+    color: #ffffff;
+  }
+  
+  .page .header div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #8e8e8e;
+  }
+  
+  .page .header div p{
+    padding: 0 20px;  
+  }
+  
+  .page .header div hr{
+    width: 200px;
+    
+  }
+  
+  /* container1 style*/
+  .page .container1{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .page .container1 form, input{
+    width: inherit;
+  }
+  
+  .page .container1 form input{
+    border: 1px solid #dbdbdb;
+    background-color: #fafafa;
+    padding: 10px 5px;
+    margin: 5px 0;
+  }
+  
+  .page .container1 form input:last-of-type{
+    margin-bottom: 10px;  
+  }
+  
+  .page .container1 form button{
+    width: inherit;
+    margin-bottom: 20px;
+    padding: 7px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0095f6;
+    color: #ffffff;
+  }
+  
+  .page .container1 ul{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .page .container1 ul li{
+    display: inline;
+    color: #8e9096;
+  }
+  
+  .page .container1 ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #8e9096;
+  }
+  
+  /* option style */
+  .option p > a{
+      text-decoration: none;
+      color: #00a0f7;
+  }
+  
+  /* otherapps style */
+  .otherapps{
+    text-align: center;
+  }
+  
+  .otherapps p{
+    margin-bottom: 15px;
+  }
+  
+  .otherapps > button{
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+  }
+  /* footer style */
+  .footer{
+    bottom: 0;
+    height: 2.5rem;
+    margin-top: 50px;
+  }
+  
+  .footer ul{
+    text-align: center;
+  }
+  .footer ul li{
+    display: inline;
+    margin-right: 5px;
+  }
+  .footer ul li a{
+    text-decoration: none;
+    font-size: 12px; 
+    color: #00376b;
+  }
+  
+  .footer p{
+    margin: 10px 0;
+    text-align: center;
+    color: #8e9096;
+    font-size: 14px;
+  }
+  
+  
+  
+  /* Mobile Styles */
+  
+  @media only screen and (max-width: 400px) {
+      body {
+          font-family: Freight Sans
+      }
+    
+    .page{
+      width: 250px;
+      background-color: #fafafa;
+    }
+    
+    .page .header{
+      width: inherit;
+      margin-top: 10px;
+    }
+    
+    .page .container1{
+      width: inherit;
+    }
+    
+    .option{
+      margin: 80px 0;
+    }
+    
+    .page .container1 input{
+      padding: 10px 5px;
+      margin: 5px 0;
+    }
+    
+    .page .footer{
+      width: inherit
+    }
+  }
+  
+  @media only screen and (min-width: 401px){
+      body {
+          font-family: Neue Helvetica
+      }
+    .page{
+      border: 1px solid #dbdbdb;
+      width: 350px;
+      background-color: white;
+      margin: 40px 40px 10px 40px;
+    }
+    
+    .page .header{
+      width: 270px;
+      margin-top: 15px;
+    }
+    
+    .page .container1{
+      width: 270px;
+    }
+    
+    .option{
+      border: 1px solid #dbdbdb;
+      background-color: white;
+      width: 350px;
+      height: 70px;
+      margin-top: 20px 0;
+      display: flex; 
+      align-items: center;
+      justify-content: center;
+      
+    }
+    .heading {
+        margin: 22px auto 12px;
+        background-image: url("https://www.instagram.com/static/bundles/es6/sprite_core_b20f2a3cd7e4.png/b20f2a3cd7e4.png");
+        background-position: -98px 0;
+        height: 51px;
+        width: 177px;
+        overflow: hidden;
+      }
+    
+    .otherapps{
+      margin: 20px 0;
+    }
+
+    
+    .otherapps button{
+      margin-right: 5px;
+    }
+    
+    .otherapps button:after-of-type{
+      margin-right: none;
+    }
+    
+    .page .footer{
+      width: 100%;
+    }
+  }
+  
